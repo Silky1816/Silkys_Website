@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'forward';
+  src: url('forward.woff') format('woff'),
+   url('forward.ttf') format('truetype');
+} 
+
+.disable-hover,
+.disable-hover * {
+  pointer-events: none !important;
+}
+
+.inline {
+   display:inline-block;
+   margin:2px;
+   margin-right:3px;
+}
+
+.scratch {
+   background-color: #800080;
+   display:inline-block;
+   margin:3px;
+   color: white;
+   font-size: 14px;
+   cursor: pointer;
+   margin-right:2px;
+}
+
+.myyt {
+   background-color: #FF0000;
+   display:inline-block;
+   margin:3px;
+   color: white;
+   font-size: 14px;
+   cursor: pointer;
+   margin-right:2px;
+}   
+
+.gmail {
+   background-color: #FFA500;
+   display:inline-block;
+   margin:3px;
+   color: white;
+   font-size: 14px;
+   cursor: pointer;
+   margin-right:2px;
+}
+
+.Minecraft {
+    background-color: #008000;
+    display: inline-block;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 150px;
+}
+
+.Art {
+    background-color: #FFC0CB;
+    display: inline-block;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 150px;
+}
+
+.snake {
+    background-color: #77DD77;
+    display: inline-block;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 150px;
+}
