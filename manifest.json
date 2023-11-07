@@ -1,0 +1,22 @@
+{
+   "manifest_version" :2,
+   "name": "Silky's web",
+   "version": "0.2.0.5",
+   "permissions": ["tabs"],
+   "content_scripts": [
+      {
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": ["content.js"]
+      }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": "logo.png",
+        "default_popup": "Silky's Web",
+        "default_title": "Silky's Web"
+    }
+}
