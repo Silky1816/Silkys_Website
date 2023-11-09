@@ -76,11 +76,11 @@
 }
 
 .1v1 {
-    background-color: #0000FF;
-    display: inline-block;
-    height: 20px;
-    padding: 0;
-    margin: 0;
-    vertical-align: top;
-    width: 150px;
+   background-color: #0000FF)0;
+   display:inline-block;
+   margin:3px;
+   color: white;
+   font-size: 14px;
+   cursor: pointer;
+   margin-right:2px;
 }
