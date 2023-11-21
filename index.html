@@ -18,6 +18,14 @@
         <p> Most embeded links will require you to click on them to use, also sometimes the embeded links may take a second to load </p>
         <button class="Minecraft" type="button" onclick="show()" id="btnID" >Minecraft (basic)</button>
         <script>
+                }
+        function show() {
+            let embed = document.getElementById("Minecraft");
+            embed.src ="https://minecraft-freecodecamp.vercel.app/"
+            embed.style="width:100%; height:50vw"
+            document.getElementById("btnID")
+                .style.display = "none";
+        }
         <button class="Minecraft" type="button" onclick="mc()" id="mc" >Minecraft</button>
         <script>
         function mc() {
@@ -25,12 +33,6 @@
             embed.src ="https://webcraft.glitch.me/"
             embed.style="width:100%; height:50vw"
             document.getElementById("mc")
-                .style.display = "none";
-        function show() {
-            let embed = document.getElementById("Minecraft");
-            embed.src ="https://minecraft-freecodecamp.vercel.app/"
-            embed.style="width:100%; height:50vw"
-            document.getElementById("btnID")
                 .style.display = "none";
         }
     </script>
